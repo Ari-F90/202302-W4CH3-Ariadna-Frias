@@ -4,7 +4,7 @@ export function Card() {
   return (
     <ul className="characters-list row list-unstyled">
       {characters.map((item, x) => (
-        <li className="character col">
+        <li key={x} className="character col">
           <div className="card character__card">
             <img
               src={"../img/" + item.name.toLowerCase() + ".jpeg"}
