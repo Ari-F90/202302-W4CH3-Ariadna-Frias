@@ -1,5 +1,4 @@
 import { characters } from "../mocks/characters";
-import "./card.css";
 
 export function Card() {
   return (
