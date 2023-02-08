@@ -1,0 +1,8 @@
+.footer {
+  background-color: burlywood;
+  color: black;
+  padding: 1rem;
+  min-height: 10vh;
+  text-align: center;
+  font-weight: 2rem;
+}
